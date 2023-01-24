@@ -14,13 +14,13 @@ main{
     background-color:violet2;
     display: flex;
     justify-content: space-around;
-    border:1px dashed #000;
+    border:1px dashsed #000;
 }
 .seccion1{
     margin:0 0;
     width: 50%;
     height:600px;
-    border:1px dashed #000;
+    bord1er:1px dashed #000;
 }
 .seccion1 #campoTexto{
     margin-top:2.5%;
@@ -39,12 +39,12 @@ main{
     font-size:40px;
 }
 #botonesyMas{ /* Estilo al contenedor de botones */
-    display:flex;
-    border:1px solid #000;
+    display: flex;
+    justify-content:center;
+    border:1px so21lid #000;
     width:100%;
 }
 #botonesyMas button{ /* Estilo al boton */
-    position:relative;
 padding:1%;
 width:350px;
 height:50px;
@@ -58,7 +58,7 @@ height:50px;
 .bntDesencriptar{
     background-color:#D8DFE8;
     color:#0a3871;
-    border:1px solid #0A3871;
+    border:1px soli2d #0A3871;
     border-radius:10px;
 }
 .seccion2{
@@ -84,4 +84,16 @@ footer{
     margin-bottom:1%;
     text-align: center;
 
+}
+footer a{
+    text-decoration:underline;
+}
+footer a:hover{
+    text-decoration:none;
+}
+#social img{
+    opacity: none;
+}
+#social img:hover{
+    opacity:80%;
 }
